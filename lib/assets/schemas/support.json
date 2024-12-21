@@ -1,0 +1,42 @@
+{
+	"reports": {
+		"categories": {
+			"spam_content": "Chat Spam",
+			"nsfw_content": "Inappropriate Content",
+			"impersonation": "Inpersonation",
+			"harassment": "Harassment",
+			"hostile_behaviour": "Threats or Violence",
+			"underage": "Faking Age (Underage/Minors)",
+			"scamming_phishing": "Scamming or Phishing",
+			"trolling": "Trolling",
+			"user_bots": "Fake User or User Bots",
+			"rule_violation": "Rule Breaking",
+			"other": "Other (Please Explain)"
+		},
+		"states": {
+			"ACTIVE": "Open",
+			"RESOLVED": "Resolved",
+			"CLOSED": "Closed",
+			"LOCKED": "Locked"
+		}
+	},
+	"tickets": {
+		"categories": {
+			"support": {
+				"title": "Help & Support",
+				"description": ""
+			},
+			"request": {
+				"title": "User Request",
+				"description": ""
+			}
+		},
+		"states": {
+			"OPEN": "Open",
+			"COMPLETE": "Resolved",
+			"UNRESOLVED": "Unresolved",
+			"LOCKED": "Locked",
+			"STALE": "Stale"
+		}
+	}
+}

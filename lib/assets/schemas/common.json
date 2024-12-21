@@ -1,0 +1,9 @@
+{
+    "permissions": {
+        "commands": {
+            "USER": 0,
+            "OWNER": 1,
+            "DEVELOPER": 2
+        }
+    }
+}

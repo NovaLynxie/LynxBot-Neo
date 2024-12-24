@@ -1,10 +1,15 @@
 # directories
 node_modules/*
+data/*
 logs/*
 
 # config files
 *.env
 *.toml
+
+# database files
+*.db
+*.sqlite
 
 # log files
 .log

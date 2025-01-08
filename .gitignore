@@ -1,6 +1,6 @@
 # directories
 node_modules/*
-data/*
+data/**/*
 logs/*
 
 # config files

@@ -1,6 +1,6 @@
 {
   "name": "lynxbot-neo",
-  "version": "0.3.0",
+  "version": "0.3.0-dev",
   "description": "A simple discord.js bot template written in nodejs",
   "main": "lib/bot.js",
   "directories": {

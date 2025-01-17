@@ -1,6 +1,7 @@
 {
     "types": {
         "FILE": "file",
-        "GENERIC": "generic"
+        "GENERIC": "generic",
+        "STREAM": "stream"
     }
 }

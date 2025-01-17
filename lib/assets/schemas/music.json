@@ -1,0 +1,6 @@
+{
+    "types": {
+        "FILE": "file",
+        "GENERIC": "generic"
+    }
+}

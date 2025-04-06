@@ -2,6 +2,8 @@
 node_modules/*
 data/**/*
 logs/*
+.eclipse/
+.idea/
 
 # config files
 *.env

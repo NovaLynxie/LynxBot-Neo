@@ -22,7 +22,11 @@
   "dependencies": {
     "@discordjs/opus": "^0.10.0",
     "@discordjs/voice": "^0.18.0",
+    "@tensorflow-models/qna": "^1.0.2",
+    "@tensorflow-models/toxicity": "^1.2.2",
     "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs-converter": "^4.22.0",
+    "@tensorflow/tfjs-node": "^4.22.0",
     "discord-html-transcripts": "^3.2.0",
     "discord.js": "^14.16.3",
     "dotenv": "^16.4.7",

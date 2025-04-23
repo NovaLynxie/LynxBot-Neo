@@ -14,8 +14,8 @@
                     "restrictedAutoCompleteInteraction": "You do not have permission to use this command!"
                 },
                 "chatcommand": {
-                    "disabledChatCommandInteraction": "This command is currently disabled.",
-                    "restrictedChatCommandInteraction": "You do not have permission to use this command!"
+                    "disabledChatInputCommandInteraction": "This command is currently disabled.",
+                    "restrictedChatInputCommandInteraction": "You do not have permission to use this command!"
                 }
             }
         }

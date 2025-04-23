@@ -2,7 +2,7 @@
     "permissions": {
         "commands": {
             "USER": 0,
-            "OWNER": 1,
+            "ADMIN": 1,
             "DEVELOPER": 2
         }
     },

@@ -5,5 +5,19 @@
             "OWNER": 1,
             "DEVELOPER": 2
         }
+    },
+    "responses": {
+        "interactions": {
+            "errors": {
+                "autocomplete": {
+                    "disabledAutocompleteInteraction": "This command's autocomplete has been disabled!",
+                    "restrictedAutoCompleteInteraction": "You do not have permission to use this command!"
+                },
+                "chatcommand": {
+                    "disabledChatCommandInteraction": "This command is currently disabled.",
+                    "restrictedChatCommandInteraction": "You do not have permission to use this command!"
+                }
+            }
+        }
     }
 }

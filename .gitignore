@@ -1,7 +1,9 @@
 # directories
 node_modules/*
-data/*
+data/**/*
 logs/*
+.eclipse/
+.idea/
 
 # config files
 *.env

@@ -2,16 +2,14 @@
 My personal DiscordJS bot. Built to run on Discord.JS v14.
 ## Dependencies
 - NodeJS v16 or above
-- Any code editor of your choice (or text file editor if you prefer that)
 - windows-build-tools (for windows only!)
 
 ## Getting Started
-To get started writing your discord bot with this framework, install the required dependencies above.  
+To get started, please install the required dependencies above.
 Please create a discord bot user at the [Discord Developers](https://discord.com/developers/applications) page and fetch your application's token. **You will need this to authenticate your bot user!**
 ### Warning!
-Do not share your bot token to **anyone** or share it publicly in your code! 
-This is your authentication token to allow your application to interact with discord's api directly, therefore it is your responsibility to ensure it is securely stored. I will not offer help for these instances.  
-If you feel that your bot's token has been leaked, please reset it immediately at the discord developers dashboard.
+Do not share your bot token to **anyone**, including trusted friends or share it publicly in your code!
+This is your authentication token to allow your application to interact with discord's api directly, therefore it is your responsibility to ensure it is securely stored. I will not be held responsible for you failing to keep your token safe. If your application has been compromised, or your bot's token has been leaked in any way, please go to your application on discord developer's dashboard and reset it immediately.
 
 ## F.A.Q.
 ### NodeJS "node" command is not recognised

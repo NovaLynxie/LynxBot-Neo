@@ -33,7 +33,7 @@
 		},
 		"states": {
 			"OPEN": "Open",
-			"DONE": "Resolved",
+			"COMPLETE": "Resolved",
 			"UNRESOLVED": "Unresolved",
 			"LOCKED": "Locked",
 			"STALE": "Stale"

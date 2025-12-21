@@ -1,0 +1,19 @@
+# Application Configuration
+
+[general]
+# Application master configuration.
+# Grant users ADMIN permissions.
+adminUserIds = []
+
+[storage]
+# Application storage configuration.
+dialect = "sqlite"
+hostname = "localhost"
+username = ""
+password = ""
+
+[developer]
+# Enable application's debug mode.
+enableDebug = false
+# Grant users DEVELOPER permissions.
+devUserIds = []

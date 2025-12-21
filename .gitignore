@@ -16,3 +16,6 @@ logs/*
 # log files
 .log
 lib/utils/models/_TEMPLATE.model.js
+
+# allowed paths (exempted)
+!lib/assets/**

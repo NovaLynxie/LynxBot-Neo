@@ -3,6 +3,7 @@ My personal DiscordJS bot. Built to run on Discord.JS v14.
 ## Dependencies
 - NodeJS v22 or above
 - windows-build-tools (for windows only!)
+- FFMPEG any version (required for audio functionality!)
 
 ## Getting Started
 To get started, please install the required [system dependencies](#dependencies) before proceeding.

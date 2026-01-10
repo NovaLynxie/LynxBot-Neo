@@ -8,8 +8,8 @@
   },
   "scripts": {
     "debug": "nodemon --inspect .",
-    "start": "node .",
-    "setup": "node ./lib/utils/setup.js"
+    "setup": "node ./lib/utils/setup.js",
+    "start": "node ."
   },
   "keywords": [
     "bot",

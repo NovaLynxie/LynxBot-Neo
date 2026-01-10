@@ -1,19 +1,29 @@
 # Application Configuration
 
 [general]
-# Application master configuration.
-# Grant users ADMIN permissions.
+# Bot application general configuration settings.
+# Grant users ADMIN permissions. Admins can manage all aspects of the application.
+# Caution: Only trusted users should be given ADMIN permissions.
 adminUserIds = []
+# Your application's client ID. This is required for command deployment.
+# Can also be set via the CLIENT_ID environment variable, otherwise left blank here.
+clientID = ""
 
 [storage]
-# Application storage configuration.
+# Application storage configuration settings.
+# Database dialect to use and connection settings. 
+# Supported dialects: sqlite, mysql, postgres
+# Default: dialect = "sqlite", hostname = "localhost", username = "", password = ""
 dialect = "sqlite"
 hostname = "localhost"
 username = ""
 password = ""
 
 [developer]
-# Enable application's debug mode.
+# Application developer configuration settings.
+# Enable application's debug mode. This may log sensitive information to the console.
+# Default: false
 enableDebug = false
-# Grant users DEVELOPER permissions.
+# Grant users DEVELOPER permissions. This is separate from ADMIN permissions.
+# Warning: Developers may have access to sensitive features that users should not have.
 devUserIds = []

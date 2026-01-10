@@ -1,11 +1,14 @@
-# directories
-node_modules/*
-data/**/*
-logs/*
+# IDE files
 .eclipse/
 .idea/
 .vs/
 .vscode/
+
+# directories
+node_modules/*
+data/**/*
+logs/*
+test/
 
 # config files
 *.env

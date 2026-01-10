@@ -4,6 +4,8 @@ data/**/*
 logs/*
 .eclipse/
 .idea/
+.vs/
+.vscode/
 
 # config files
 *.env

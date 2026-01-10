@@ -1,21 +1,21 @@
 # LynxBot "Neo"
 My personal DiscordJS bot. Built to run on Discord.JS v14.
 ## Dependencies
-- NodeJS v16 or above
+- NodeJS v22 or above
 - windows-build-tools (for windows only!)
 
 ## Getting Started
-To get started, please install the required dependencies above.
-Please create a discord bot user at the [Discord Developers](https://discord.com/developers/applications) page and fetch your application's token. **You will need this to authenticate your bot user!**
+To get started, please install the required [system dependencies](#dependencies) before proceeding.
+You will also need to create a discord application bot user at the Discord Developers applications page [here](https://discord.com/developers/applications) and generate your unique application token.
 ### Warning!
 Do not share your bot token to **anyone**, including trusted friends or share it publicly in your code!
-This is your authentication token to allow your application to interact with discord's api directly, therefore it is your responsibility to ensure it is securely stored. I will not be held responsible for you failing to keep your token safe. If your application has been compromised, or your bot's token has been leaked in any way, please go to your application on discord developer's dashboard and reset it immediately.
+This is your authentication token to allow your application to interact with discord's api directly, therefore it is your responsibility to ensure it is securely stored. Neither I (NovaLynxie) or Discord will be held responsible for you failing to keep your token safe. If you feel that your application has been compromised, or your bot's token has been leaked in any way, please go to your application in Discord Developer's dashboard and reset it immediately.
 
 ## F.A.Q.
 ### NodeJS "node" command is not recognised
 You have either not installed NodeJS or your PATH env variable has not been setup correctly. Please try uninstalling and reinstalling NodeJS.
 ### The bot fails to start-up properly. What do I do?
-Check the console or logs for errors and ensure your code is free of syntax errors. If all else fails reinstall your dependencies by running `npm clean-install` or delete the `node_modules` folder and run `npm install` to setup your environment again.
+Check the console or logs for errors and ensure your code is free of syntax errors. If all else fails reinstall your dependencies by running `npm clean-install` or delete the `node_modules` folder and run `npm install` to setup your apps dependencies again.
 ### "sodium" module fails to install, why can I not install it?
 You must have "windows-build-tools" installed, this comes with newer versions of NodeJS.  
 For Windows users, please go to your installation's directory and run the "install_tools.bat" or similar for your installation.  

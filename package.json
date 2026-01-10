@@ -7,7 +7,6 @@
     "lib": "lib"
   },
   "scripts": {
-    "deploy": "node ./lib/utils/deploy.js",
     "debug": "nodemon --inspect .",
     "start": "node .",
     "setup": "node ./lib/utils/setup.js"

@@ -23,4 +23,5 @@ test/
 lib/utils/models/_TEMPLATE.model.js
 
 # allowed paths (exempted)
-!lib/assets/**
+!lib/assets/**/schemas/*.json
+!lib/assets/**/templates/default_*.toml

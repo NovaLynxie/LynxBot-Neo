@@ -14,7 +14,7 @@
 			"other": "Other (Please Explain)"
 		},
 		"states": {
-			"ACTIVE": "Open",
+			"OPEN": "Open",
 			"RESOLVED": "Resolved",
 			"CLOSED": "Closed",
 			"LOCKED": "Locked"

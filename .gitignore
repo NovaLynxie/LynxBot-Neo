@@ -20,7 +20,6 @@ test/
 
 # log files
 .log
-lib/utils/models/_TEMPLATE.model.js
 
 # bot lib folders - do not ignore specific important files
 !lib/assets/**/schemas/*.json

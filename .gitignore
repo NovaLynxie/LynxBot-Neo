@@ -11,7 +11,7 @@ logs/*
 test/
 
 # config files
-*.env
+*.env*
 *.toml
 
 # database files

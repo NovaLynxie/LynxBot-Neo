@@ -1,6 +1,6 @@
 {
   "name": "lynxbot-neo",
-  "version": "0.4.9-beta",
+  "version": "0.5.0-beta",
   "description": "A simple discord.js bot template written in nodejs",
   "main": "lib/bot.js",
   "directories": {
@@ -23,7 +23,7 @@
     "@discordjs/opus": "^0.10.0",
     "@discordjs/voice": "^0.18.0",
     "common-tags": "^1.8.2",
-    "discord-html-transcripts": "^3.2.0",
+    "discord-html-transcripts-v2": "^3.3.2",
     "discord.js": "^14.25.1",
     "dotenv": "^16.4.7",
     "music-metadata": "^7.14.0",
@@ -36,6 +36,9 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=16"
   },
   "nodemonConfig": {
     "delay": 5000,

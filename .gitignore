@@ -24,3 +24,4 @@ test/
 # bot lib folders - do not ignore specific important files
 !lib/assets/**/schemas/*.json
 !lib/assets/**/templates/default_config.toml
+!lib/assets/**/templates/default_env.env

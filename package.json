@@ -26,6 +26,7 @@
     "discord-html-transcripts-v2": "^3.3.2",
     "discord.js": "^14.26.2",
     "dotenv": "^16.4.7",
+    "express": "^5.2.1",
     "music-metadata": "^11.12.3",
     "sequelize": "^6.37.8",
     "sodium-native": "^4.3.1",

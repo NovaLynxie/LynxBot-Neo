@@ -1,17 +1,26 @@
 # Discord Bot Application Configuration
-# Config Version 1.0.0-26w4a (C) NovaLynxie 2024-2026
+# Config Version 1.0.0-26w18a (C) NovaLynxie 2024-2026
 
 [general]
-# Bot application general configuration settings.
+# Bot application general settings.
 # Grant users ADMIN permissions. Admins can manage all aspects of the application.
 # Caution: Only trusted users should be given ADMIN permissions.
 adminUserIds = []
-# Your application's client ID. This is required for command deployment.
-# Can also be set via the CLIENT_ID environment variable, otherwise left blank here.
+# Your application's client ID. This is required for command deployment (and dashboard if enabled).
+# Process env variable CLIENT_ID takes priority over this if set in your app's `.env` file.
 clientID = ""
 
+[dashboard]
+# Bot dashboard service settings.
+# Enable bot dashboard?
+# default: false
+enableDashboard = false
+# Enforce HTTPS with SSL instead of HTTP? Requires signed keys to function correctly, use OpenSSL to generate these keys!
+# default: false
+enforceSecure = false
+
 [storage]
-# Application storage configuration settings.
+# Bot application storage settings.
 # Database dialect to use and connection settings. 
 # Supported dialects: sqlite, mysql, postgres
 # Default: dialect = "sqlite", hostname = "localhost", username = "", password = ""
@@ -21,7 +30,7 @@ username = ""
 password = ""
 
 [developer]
-# Application developer configuration settings.
+# Bot application developer settings.
 # Enable application's debug mode. This may log sensitive information to the console.
 # Default: false
 enableDebug = false

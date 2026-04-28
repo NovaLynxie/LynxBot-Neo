@@ -1,15 +1,15 @@
 {
   "name": "lynxbot-neo",
-  "version": "0.3.1",
+  "version": "0.5.2-stable",
   "description": "A simple discord.js bot template written in nodejs",
   "main": "lib/bot.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "debug": "nodemon --inspect .",
-    "start": "node .",
-    "setup": "node ./lib/utils/setup.js"
+    "dev": "nodemon --inspect .",
+    "setup": "node ./lib/utils/setup.js",
+    "start": "node ."
   },
   "keywords": [
     "bot",
@@ -20,17 +20,25 @@
   "author": "NovaLynxie",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^14.16.3",
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.19.2",
+    "common-tags": "^1.8.2",
+    "discord-html-transcripts-v2": "^3.3.2",
+    "discord.js": "^14.26.2",
     "dotenv": "^16.4.7",
-    "sequelize": "^6.37.5",
-    "sqlite3": "^5.1.7",
+    "music-metadata": "^11.12.3",
+    "sequelize": "^6.37.8",
+    "sodium-native": "^4.3.1",
+    "sqlite3": "^6.0.1",
     "toml": "^3.0.0",
     "winston": "^3.17.0",
     "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
-    "eslint": "^9.17.0",
     "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=22.12.0"
   },
   "nodemonConfig": {
     "delay": 5000,

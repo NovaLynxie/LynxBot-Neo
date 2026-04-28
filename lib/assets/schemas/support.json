@@ -2,7 +2,7 @@
 	"reports": {
 		"categories": {
 			"spam_content": "Chat Spam",
-			"nsfw_content": "Inappropriate Content",
+			"nsfw_content": "Adult or NSFW Content",
 			"impersonation": "Inpersonation",
 			"harassment": "Harassment",
 			"hostile_behaviour": "Threats or Violence",
@@ -14,7 +14,7 @@
 			"other": "Other (Please Explain)"
 		},
 		"states": {
-			"ACTIVE": "Open",
+			"OPEN": "Open",
 			"RESOLVED": "Resolved",
 			"CLOSED": "Closed",
 			"LOCKED": "Locked"

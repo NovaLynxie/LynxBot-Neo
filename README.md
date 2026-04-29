@@ -1,4 +1,4 @@
-# LynxBot "Neo"
+# LynxBot for Discord
 My personal DiscordJS bot. Built to run on Discord.JS v14.
 ## Dependencies
 - NodeJS v22 or above
